@@ -1,7 +1,14 @@
 ### Pulizia notebook
+```bash
+pip install -r requirements.txt
+```
 
-Per rimuovere gli output dal file `binary_classification.ipynb` (o da qualsiasi `.ipynb`) usa:
+
+### Pulizia notebook
+
+Per rimuovere gli output dal file .ipynb usa:
 
 ```bash
 jupyter nbconvert --clear-output --inplace binary_classification.ipynb
+jupyter nbconvert --clear-output --inplace converting_file_xes.ipynb
 ```
